@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte e Cores</title>
+
+    <style type="text/css">
+
+        .formatacao{
+            /* Outras medidas de font-size: 
+            Tamanho padrão nos navegadores: 16px.
+            px -> tamanho fixo
+            % -> tamanho relativo que o browser utiliza como ref (100% = 16px)
+            em -> tamanho relativo ao container pai. O body é considerado um 
+            container pai tbm*/
+            /* color: #c1400d;
+            font-size: 30px;
+            background: #0e03ea;
+            font-family: "Times New Roman", Times, serif; */
+            font-size: 1em; /*neste caso aqui, nada mudará pq a div é o pai, então 1em é
+            igual ao que está na div abaixo*/
+        }
+
+        div {
+            font-size: 60px;
+        }
+
+        .texto2{
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>  
+        <p class="formatacao">Conteúdo</p>
+        <p class="texto2">Conteúdo</p>
+    </div>
+
+        
+</body>
+
+</html>

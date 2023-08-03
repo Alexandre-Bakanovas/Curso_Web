@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div e Span</title>
+
+    <style type="text/CSS">
+
+        #topo{
+            background: blue;
+        }
+
+        #conteudo{
+            background: red;
+        }
+
+        #rodape{
+            background: green;
+        }
+
+        #assinatura{
+            background: pink;
+        }
+
+        .produto{
+            background: gray;
+            margin: 10px;
+        }
+
+        .azul{
+            color: blue;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- A div é um elemento do tipo block, ou seja, ela ocupa todo o espaço da tela. -->
+    <!-- Elementos do tipo block, eles ficam um abaixo do outro. -->
+    <!-- O parágrago também é um elemento de block -->
+    <div id="topo">
+        <img src="Imagens/Amazon_Prime_Video_logo.svg.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+
+        <div class="produto">
+            Produto 2
+        </div>
+
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+
+    <div id="rodape">
+        Todos os  <span class="azul">direitos</span> reservados
+    </div>
+
+    <!-- Span são elementos do tipo inline, ou seja, ele agrupa os seus elementos linha a linha -->
+    <!-- No span, os elementos ficam lado a lado. -->
+    <span id="assinatura">
+        Jamilton
+    </span>
+    <span>
+        Damasceno
+    </span>
+
+</body>
+
+</html>
+
